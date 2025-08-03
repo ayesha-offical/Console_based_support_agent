@@ -61,16 +61,6 @@ Code Structure:
 - Tools: Functions decorated with @function_tool to perform specific tasks.  
 - Guardrails: Async functions that validate agent outputs to maintain response quality.
 
-Contributing:
-
-Contributions are welcome! Please open issues or submit pull requests for improvements.
-
-License:
-
-MIT License © 2025 Your Name
-
----
-
 For more details, visit the OpenAI Agents SDK documentation at https://github.com/openai/openai-python/tree/main/agents and Google Gemini API docs at https://ai.google.dev/gemini-api/docs/overview.
 
 ---
@@ -78,4 +68,5 @@ For more details, visit the OpenAI Agents SDK documentation at https://github.co
 Contributions are welcome! Please open issues or submit pull requests for improvements.
 
 Thank you ❤
+
 
