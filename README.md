@@ -38,7 +38,7 @@ Setup:
    cd console-support-agent-system
 
 2. Create a .env file with your API key:  
-   OPENAI_API_KEY=your_gemini_api_key_here
+   GEMINI_API_KEY=your_gemini_api_key_here
 
 3. Run the application:  
    python main.py
@@ -68,5 +68,3 @@ For more details, visit the OpenAI Agents SDK documentation at https://github.co
 Contributions are welcome! Please open issues or submit pull requests for improvements.
 
 Thank you ❤
-
-
