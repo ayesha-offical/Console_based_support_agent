@@ -31,37 +31,6 @@ This project demonstrates how to create a scalable AI-powered customer support a
 ```bash
 pip install -r requirements.txt
 ```
-Console Support Agent System
-
-A modular, console-based multi-agent support system built using the OpenAI Agents SDK and Google Gemini API.  
-This project demonstrates how to create a scalable AI-powered customer support assistant that handles billing, technical, and general queries by dynamically routing requests to specialized agents.
-
-Features:
-
-- Multi-Agent Architecture:  
-  Includes a triage agent that classifies user queries and routes them to specialized billing, technical, or general support agents.
-
-- Context-Aware Tools:  
-  Each specialized agent uses dedicated tools with conditional logic based on user context (e.g., premium status, issue type).
-
-- Async Output Guardrails:  
-  Implements asynchronous guardrails to validate agent responses and prevent undesired outputs like apologies.
-
-- Console-Based Interface:  
-  Fully interactive CLI allowing users to input queries and receive AI-generated responses in real-time.
-
-- Gemini API Integration:  
-  Uses Google Gemini models through the OpenAI SDK for powerful, state-of-the-art language understanding and generation.
-
-Getting Started:
-
-Prerequisites:
-
-- Python 3.10 or higher  
-- An OpenAI-compatible API key for Gemini API (set as OPENAI_API_KEY in your environment or .env file)  
-- Install dependencies:  
-  pip install -r requirements.txt
-
 Setup:
 
 1. Clone the repository:  
@@ -109,3 +78,4 @@ For more details, visit the OpenAI Agents SDK documentation at https://github.co
 Contributions are welcome! Please open issues or submit pull requests for improvements.
 
 Thank you ❤
+
